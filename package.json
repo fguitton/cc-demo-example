@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "build": "stac ."
+    },
+    "devDependencies": {
+        "@secretarium/trustless-app": "*",
+        "assemblyscript": "^0.19"
+    }
+}
