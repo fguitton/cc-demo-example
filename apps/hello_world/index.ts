@@ -7,7 +7,7 @@ export const my_query: Klave.Query = (arg) => {
 
 export const my_transaction: Klave.Transaction = (arg) => {
     const s = String.UTF8.decode(arg, true);
-    Klave.notify(String.UTF8.encode('Coucou ' + s, true));
+    Klave.notify(String.UTF8.encode('Yipi ' + s, true));
 };
 
 export function register_routes(): void {
