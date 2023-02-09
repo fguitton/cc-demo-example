@@ -6,7 +6,6 @@
 export function register_routes(): void {
     add_user_query(String.UTF8.encode("my_query", true));
 }
-
 export function my_query(arg: ArrayBuffer): void {
       let arr = new Uint8Array(4);
       arr[0] = 65;
