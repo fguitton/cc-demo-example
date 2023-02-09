@@ -8,9 +8,9 @@ export function register_routes(): void {
 }
 export function my_query(arg: ArrayBuffer): void {
       let arr = new Uint8Array(4);
-      arr[0] = 65;
-      arr[1] = 66;
-      arr[2] = 67;
+      arr[0] = 68;
+      arr[1] = 69;
+      arr[2] = 70;
       arr[3] = 0;
       notify(arr.buffer);
 }
